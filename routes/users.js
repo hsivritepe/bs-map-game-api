@@ -44,6 +44,8 @@ router.post('/', (req, res) => {
 });
 
 router.patch('/:id', (req, res) => {
+    // const abc = req;
+    console.log(req.body);
     fs.readFile('./data/users.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err);
@@ -60,11 +62,10 @@ router.patch('/:id', (req, res) => {
             } else {
                 const updatedUser = {
                     id: req.params.id,
-                    name: req.body.name,
-                    score: req.body.score,
+                    name: req.body.userData.name,
+                    score: req.body.userData.score,
                 };
                 users[index] = {
-                    ...users[index],
                     ...updatedUser,
                 };
                 fs.writeFile(
