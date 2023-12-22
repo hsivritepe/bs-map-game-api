@@ -85,7 +85,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/hsivritepe/h
 
 ## Authors
 
--   **Hakan Sivritepe** - _Software Developer_ - [Hakan Sivritepe](https://github.com/hsivritepe/) - _Built BS Map Game_
--   **Nick Seale** - _Developer_ - [Nick Seale](https://github.com/NickSeale) - _Built BS Map Game_
--   **Tristan Pernot** - _Developer_ - [Tristan Pernot](https://github.com/TristanPernot) - _Built BS Map Game_
--   **Sunny Yutain** - _Developer_ - [Sunny Yutain](https://github.com/sunnyyutianxie) - _Built BS Map Game_
+-   **Hakan Sivritepe** - _Software Developer_ - [Hakan Sivritepe](https://github.com/hsivritepe/) - _Built BS Map Game API_
